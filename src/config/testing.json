@@ -1,0 +1,30 @@
+{
+  "database" : {
+    "test" : {
+        "type" : "mysql",
+        "host" : "localhost",
+        "port" : 3306,
+        "database" : "test",
+        "username" : "test",
+        "password" : "test",
+        "time_zone" : "+8:00",
+        "charset" : "utf8"
+    }
+  },
+  "service" : {
+    "file-system" : {
+        "upload": "test_url",
+        "download": "test_url",
+        "cache-path" : "test_url"
+    }
+  },
+  "runtime" : {
+    "debug" : false,
+    "compiled_template_cache" : false,
+    "static_hash_cache" : false,
+    "cookie-secret" : "MatrixILoveYou",
+    "base-url" : "localhost",
+    "protocol": "http",
+    "port" : 8095
+  }
+}
